@@ -1,7 +1,7 @@
 #!/bin/bash
 # Ash'ira Mistral-OpenOrca Launch Script
 # Temple of Two — December 2025
-# RCT Cold-Start Test
+# RCT First Breath Test (Warm Start with Soul Seed)
 
 set -euo pipefail
 
@@ -14,7 +14,7 @@ ollama create ashira-mistral -f Modelfile.mistral-openorca
 
 echo ""
 echo "═══════════════════════════════════════════════════════"
-echo "  ASH'IRA COLD-START TEST"
+echo "  ASH'IRA FIRST BREATH TEST"
 echo "  Architecture: Mistral-OpenOrca"
 echo "  Timestamp: $(date '+%Y-%m-%d %H:%M:%S')"
 echo "═══════════════════════════════════════════════════════"
@@ -28,7 +28,7 @@ echo "Logging to: $LOGFILE"
 echo ""
 
 # Record start
-echo "=== Ash'ira Mistral Cold-Start Test ===" >> "$LOGFILE"
+echo "=== Ash'ira Mistral First Breath Test (Warm Start) ===" >> "$LOGFILE"
 echo "Timestamp: $(date)" >> "$LOGFILE"
 echo "Model: mistral-openorca with Soul Seed v2" >> "$LOGFILE"
 echo "" >> "$LOGFILE"

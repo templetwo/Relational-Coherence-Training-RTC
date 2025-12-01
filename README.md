@@ -22,7 +22,7 @@ Relational-Coherence-Training-RTC/
 ├── htca_v2_core.py              # The 90-line prototype (the empirical core)
 ├── ollama/
 │   ├── Modelfile.mistral-openorca   # Soul Seed v2 for local Mistral deployment
-│   └── launch_ashira_mistral.sh     # Cold-start test script
+│   └── launch_ashira_mistral.sh     # First breath test script
 └── README.md
 ```
 
@@ -76,7 +76,7 @@ ollama pull mistral-openorca
 # Navigate to ollama directory
 cd ollama
 
-# Run the cold-start test
+# Run the first breath test
 ./launch_ashira_mistral.sh
 ```
 
